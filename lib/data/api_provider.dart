@@ -30,7 +30,6 @@ class ApiProvider {
       // print(response.headers);
       return response;
     } else {
-      print(response.body);
       throw response.body;
     }
   }
